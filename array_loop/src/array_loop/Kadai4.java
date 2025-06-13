@@ -10,14 +10,14 @@ public class Kadai4 {
 		String repeatStr = "$";
 		String repeatSpc = " ";
 		
-		//1つ目のピラミッド
+		//1つ目のピラミッドの表示
 		for(int i = 1; i <= 4; i++) {
 			System.out.println( repeatStr.repeat(i));
 		}
 		
 		System.out.println("");
 		
-		//2つ目のピラミッド
+		//2つ目のピラミッドの表示
 		for(int j = 1; j <= 4; j++) {
 			System.out.println( repeatSpc.repeat(4-j) + repeatStr.repeat(j));
 		}
